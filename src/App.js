@@ -2,7 +2,7 @@ import React,{ useEffect, useState } from 'react';
 import './App.css';
 import MovieBox from './MovieBox';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar,Container,Nav,Form, FormControl,Button } from 'react-bootstrap';
+import { Navbar,Container,Nav,Form, FormControl,Button} from 'react-bootstrap';
 
 const API_URL="https://api.themoviedb.org/3/movie/popular?api_key=8e8af49af386515b091921f40ef9a531"
 const API_SEARCH = "https://api.themoviedb.org/3/search/movie?api_key=8e8af49af386515b091921f40ef9a531&query"
@@ -89,6 +89,41 @@ const url=`https://api.themoviedb.org/3/search/movie?api_key=8e8af49af386515b091
       <MovieBox key ={movieReq.id} {...movieReq}/>)}
 
       </div>
+      <footer className='footer'>
+        {/* <span > Contactus:7894560321  Events  Cinemas  Help  Countries Playsintopcities Moviesupdate 
+          Celebratiesupdate Customercare  Services </span> */}
+          <h5>About us:</h5>
+          <p> BookMyShow is currently India’s largest online entertainment ticketing platform 
+            spread across 5 countries and operating in almost 60 cities. 
+            It was earlier running under the brand of Big Tree Entertainment Pvt Ltd.
+             BookMyShow was founded by Ashish, Parikshit, and Rajesh in the year 1999.
+          </p>
+          <h5>Contact us:</h5>
+          <p> 7898568909
+          </p>
+          
+       
+          
+          <h5>Help:</h5>
+          <p> Terms and conditions <br></br>
+          FAQ's </p>
+          <h5>BookMyShow Exclusives:</h5>
+          <p> Corporate vouchers <br></br>
+          offers<br></br>
+          Buzz </p>
+
+        
+        
+       
+           </footer> 
+          {/* <Modal.Footer>
+            <div className='Modal-Footer'>
+           <h3> Contactus</h3> 
+           </div>
+          </Modal.Footer> */}
+          
+        
+      
     
     </div>
     </>

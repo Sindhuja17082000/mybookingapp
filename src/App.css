@@ -41,3 +41,22 @@ body{
   color: white;
   background-color: aliceblue;
 }
+/* .Modal-footer{
+  display: flex;
+  background-color: #c0c0c0;
+  word-spacing: 1cm;
+
+} */
+.footer{
+  background-color:rgba(12, 15, 16, 0.3);
+  height: 50vh;
+}
+.footer h5{
+  text-align: center;
+  text-decoration: underline;
+  
+}
+.footer p{
+  text-align: center;
+  color: white;
+}
